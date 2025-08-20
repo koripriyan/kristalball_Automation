@@ -1,0 +1,10 @@
+Maven: Reload project
+mvn clean install
+
+mvn compile
+mvn exec:java -Dexec.mainClass="com.kristballpack.App"
+mvn test
+
+mvn exec:java -Dexec.mainClass="com.kristballpack.App"
+
+$ mvn test -DsuiteXmlFile=testng.xml
